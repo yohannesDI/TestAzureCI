@@ -24,7 +24,7 @@ namespace SampleUnitTest
          HomeController controller = new HomeController();
          // Act
          ViewResult result = controller.Privacy() as ViewResult;
-
+          
          // Assert
          Assert.NotNull(result);
          Assert.Equal("Index", result.ViewName);
