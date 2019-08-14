@@ -17,3 +17,8 @@ steps:
   inputs:
     command: 'build' 
     projects: 'AzurePipelineTestWebApp/AzurePipelineTestWebApp/*.csproj'
+
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'build' 
+    projects: 'SampleUnitTest/*.csproj'
