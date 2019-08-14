@@ -27,7 +27,7 @@ namespace SampleUnitTest
 
          // Assert
          Assert.NotNull(result);
-         Assert.Equal("Index", result.ViewName);
+         Assert.Equal("Privacy", result.ViewName);
       }
    }
 }
